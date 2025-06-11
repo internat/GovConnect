@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Добро пожаловать в GovConnect</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1e3a8a, #3b82f6);
+      color: #fff;
+    }
+    .intro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3rem;
+      background: linear-gradient(90deg, #60a5fa, #1e40af);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+    p {
+      max-width: 700px;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      background: #fff;
+      color: #1e40af;
+      padding: 12px 24px;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .btn:hover {
+      background: #3b82f6;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="intro">
+    <h1>GovConnect</h1>
+    <p>
+      Добро пожаловать на платформу гражданских инициатив Казахстана.
+      Наша цель — соединить активных граждан с государственными структурами
+      для создания прозрачного, эффективного и справедливого общества.
+    </p>
+    <div class="buttons">
+      <button class="btn" onclick="location.href='Claude.html#login'">Войти</button>
+      <button class="btn" onclick="location.href='Claude.html#login'">Регистрация</button>
+    </div>
+  </div>
+</body>
+</html>
